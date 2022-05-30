@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap');
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    margin: 0;
+    padding: 0;
+    
+}
+.topsvg {
+    height: 50vh;
+    transform: rotate(180deg) scaleX(-1);
+    position: relative;
+    right: 40%;
+    z-index: 1;
+    
+}
+.bottomsvg {
+    height: 50vh;
+    position: relative;
+    left: 40%;
+    z-index: 1;
+    
+}
+.content {
+    width: 25vw;
+    background-color: white;
+    position: absolute;
+    top: 25vh;
+    left: 40vw;  
+    z-index: 2; 
+    border-radius: 20px;
+}
+.pattern {
+    width: 100%;
+    height: 40%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.followers {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5%;
+    
+}
+.content {
+    text-align: center;
+}
+img {
+    border-radius: 50%;
+    border: 5px solid white;
+    position: relative;
+    top: 50px;
+    
+}
+.name-box {
+    margin-top: 15%;
+}
+.name {
+    font-weight: bold;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+}
+.follow-num {
+    font-weight: bold;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+}
+.follow-text {
+    position: relative;
+    bottom: 15%;
+    font-size: 14px;
+}
+.num ,.follow-text ,.london {
+    color: hsl(227, 10%, 46%);
+    font-family: sans-serif;
+}
+hr {
+    color: hsl(0, 0%, 59%);
+}
+.num {
+    font-size: 20px;
+}
